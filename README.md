@@ -55,7 +55,7 @@ These projects serve as excellent learning resources for beginners and intermedi
 - **Jump Mechanics** - Ground detection and variable jump force
 - **Animated Character** - Idle, run, and jump animation states
 - **Collectible System** - Coin collection with score tracking
-- ✅ **Enemy AI** - Patrolling enemies with configurable movement patterns
+- **Enemy AI** - Patrolling enemies with configurable movement patterns
 - **Moving Platforms** - Parent-child attachment system for platform movement
 - **Hazard Detection** - Traps and enemy collision handling
 - **Win Condition** - Key collection system with victory screen
@@ -86,7 +86,7 @@ A fully functional 2D platformer game featuring classic side-scrolling gameplay 
 - **Interactive Elements**: Moving platforms, collectibles
 - **Progression**: Score-based system with game over/win conditions
 
-#### 🛠️ Technical Implementation
+#### Technical Implementation
 - **PlayerController.cs**: Handles player input, movement physics, jump mechanics, and animation states
 - **GameManager.cs**: Manages game state, score tracking, UI updates, scene transitions
 - **PlayerCollision.cs**: Collision detection for collectibles, hazards, and win conditions
