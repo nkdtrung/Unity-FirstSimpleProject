@@ -1,4 +1,4 @@
-# 🎮 Unity First Simple Project Collection
+# Unity First Simple Project Collection
 
 <div align="center">
 
@@ -8,33 +8,33 @@
 
 **A comprehensive collection of Unity learning projects featuring 2D platformer mechanics and 3D character controller implementations**
 
-[Features](#-features) • [Projects](#-projects-overview) • [Installation](#-installation) • [Controls](#-controls) • [Documentation](#-technical-documentation)
+[Features](#features) • [Projects](#projects-overview) • [Installation](#installation) • [Controls](#controls) • [Documentation](#technical-documentation)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Projects Overview](#-projects-overview)
+- [Overview](#overview)
+- [Features](#features)
+- [Projects Overview](#projects-overview)
   - [FirstTest - 2D Platformer Game](#1-firsttest---2d-platformer-game)
   - [NKDTrung - 3D Third-Person Adventure](#2-nkdtrung---3d-third-person-adventure)
   - [TaiNguyen - Asset Pack](#3-tainguyen---asset-pack)
-- [Installation](#-installation)
-- [Controls](#-controls)
-- [Technical Documentation](#-technical-documentation)
-- [Project Structure](#-project-structure)
-- [Scripts Reference](#-scripts-reference)
-- [Assets & Credits](#-assets--credits)
-- [Development Setup](#-development-setup)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Installation](#installation)
+- [Controls](#controls)
+- [Technical Documentation](#technical-documentation)
+- [Project Structure](#project-structure)
+- [Scripts Reference](#scripts-reference)
+- [Assets & Credits](#assets--credits)
+- [Development Setup](#development-setup)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🌟 Overview
+## Overview
 
 This repository contains a collection of Unity learning projects demonstrating fundamental game development concepts, including:
 
@@ -48,30 +48,30 @@ These projects serve as excellent learning resources for beginners and intermedi
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎯 2D Platformer Features
-- ✅ **Smooth Character Movement** - WASD/Arrow keys with physics-based controls
-- ✅ **Jump Mechanics** - Ground detection and variable jump force
-- ✅ **Animated Character** - Idle, run, and jump animation states
-- ✅ **Collectible System** - Coin collection with score tracking
+### 2D Platformer Features
+- **Smooth Character Movement** - WASD/Arrow keys with physics-based controls
+- **Jump Mechanics** - Ground detection and variable jump force
+- **Animated Character** - Idle, run, and jump animation states
+- **Collectible System** - Coin collection with score tracking
 - ✅ **Enemy AI** - Patrolling enemies with configurable movement patterns
-- ✅ **Moving Platforms** - Parent-child attachment system for platform movement
-- ✅ **Hazard Detection** - Traps and enemy collision handling
-- ✅ **Win Condition** - Key collection system with victory screen
-- ✅ **Audio System** - Background music and sound effects (jump, coin collection)
-- ✅ **UI/UX** - Main menu, pause functionality, game over/win screens
+- **Moving Platforms** - Parent-child attachment system for platform movement
+- **Hazard Detection** - Traps and enemy collision handling
+- **Win Condition** - Key collection system with victory screen
+- **Audio System** - Background music and sound effects (jump, coin collection)
+- **UI/UX** - Main menu, pause functionality, game over/win screens
 
-### 🎮 3D Adventure Features
-- ✅ **Third-Person Camera** - Mouse orbit controls with zoom functionality
-- ✅ **3D Character Controller** - Physics-based movement with Rigidbody
-- ✅ **Dynamic Terrain** - Chunk-based ground generation system
-- ✅ **Enemy AI** - Chase mechanics with detection range
-- ✅ **Animation System** - Speed-based animation blending
+### 3D Adventure Features
+- **Third-Person Camera** - Mouse orbit controls with zoom functionality
+- **3D Character Controller** - Physics-based movement with Rigidbody
+- **Dynamic Terrain** - Chunk-based ground generation system
+- **Enemy AI** - Chase mechanics with detection range
+- **Animation System** - Speed-based animation blending
 
 ---
 
-## 🗂️ Projects Overview
+## Projects Overview
 
 ### 1. **FirstTest** - 2D Platformer Game
 
@@ -79,7 +79,7 @@ These projects serve as excellent learning resources for beginners and intermedi
 
 A fully functional 2D platformer game featuring classic side-scrolling gameplay mechanics. Players navigate through levels collecting coins, avoiding enemies and traps, and searching for the key to win.
 
-#### 🎯 Game Mechanics
+#### Game Mechanics
 - **Player Controls**: Left/Right movement, Jump
 - **Objective**: Collect coins for score and find the key to win
 - **Obstacles**: Enemies with patrol AI, static traps
@@ -95,7 +95,7 @@ A fully functional 2D platformer game featuring classic side-scrolling gameplay 
 - **AudioManager.cs**: Centralized audio system for background music and sound effects
 - **Menu.cs**: Main menu scene management and game initialization
 
-#### 📊 Game Flow
+#### Game Flow
 ```
 Main Menu → Game Scene → (Collect Coins + Avoid Enemies) → Find Key → Victory Screen
                       ↓
@@ -110,20 +110,20 @@ Main Menu → Game Scene → (Collect Coins + Avoid Enemies) → Find Key → Vi
 
 A 3D third-person game featuring camera controls, character movement, dynamic terrain generation, and enemy chase mechanics.
 
-#### 🎯 Core Systems
+#### Core Systems
 - **Camera System**: Mouse-controlled orbital camera with zoom
 - **Movement System**: WASD controls with camera-relative direction
 - **Terrain System**: Chunk-based infinite terrain generation
 - **AI System**: Enemy detection and chase behavior
 
-#### 🛠️ Technical Implementation
+#### Technical Implementation
 - **PlayerMotor.cs**: 3D character controller with Rigidbody physics, ground detection, and animation system
 - **ThirdPerson.cs** (SimpleMouseOrbit): Third-person camera controller with mouse orbit, zoom, and target following
 - **ChunkManager.cs**: Dynamic chunk loading/unloading based on player position (view distance optimization)
 - **Ground.cs**: Large-scale grid-based ground generation for expansive worlds
 - **AttackPlayer.cs** (EnemyChase): Enemy AI with player detection and pursuit mechanics
 
-#### 🎮 Features
+#### Features
 - **Camera Controls**: 
   - Left Mouse Button + Drag to orbit
   - Mouse Wheel to zoom in/out
@@ -142,7 +142,7 @@ A 3D third-person game featuring camera controls, character movement, dynamic te
 
 A curated collection of game assets including sprites, sounds, and fonts sourced from various creators.
 
-#### 📦 Contents
+#### Contents
 - **Sprites**: Knight character, slime enemy, platforms, coins, fruits, tilesets
 - **Audio**: Sound effects and music tracks
 - **Fonts**: Pixel Operator font family
@@ -150,7 +150,7 @@ A curated collection of game assets including sprites, sounds, and fonts sourced
 
 ---
 
-## 💾 Installation
+## Installation
 
 ### Prerequisites
 - **Unity Hub**: [Download here](https://unity.com/download)
@@ -187,7 +187,7 @@ A curated collection of game assets including sprites, sounds, and fonts sourced
 
 ---
 
-## 🎮 Controls
+## Controls
 
 ### 2D Platformer (FirstTest)
 
@@ -214,7 +214,7 @@ A curated collection of game assets including sprites, sounds, and fonts sourced
 
 ---
 
-## 📚 Technical Documentation
+## Technical Documentation
 
 ### System Architecture
 
@@ -266,7 +266,7 @@ ChunkManager (Optimization)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Unity-FirstSimpleProject/
@@ -363,7 +363,7 @@ Unity-FirstSimpleProject/
 
 ---
 
-## 🔧 Scripts Reference
+## Scripts Reference
 
 ### FirstTest (2D Platformer)
 
@@ -593,7 +593,7 @@ public void QuitGame()     // Exits application
 
 ---
 
-## 🎨 Assets & Credits
+## Assets & Credits
 
 ### Asset Attribution
 
@@ -621,7 +621,7 @@ Many assets have been repackaged and modified by **Brackeys** for educational pu
 
 ---
 
-## 🛠️ Development Setup
+## Development Setup
 
 ### Unity Configuration
 
@@ -674,7 +674,7 @@ Ensure the following tags are created in **Edit → Project Settings → Tags an
 
 ---
 
-## 🚀 Building the Game
+## Building the Game
 
 ### Build Instructions
 
@@ -713,35 +713,35 @@ Ensure the following tags are created in **Edit → Project Settings → Tags an
 
 ---
 
-## 📖 Learning Resources
+## Learning Resources
 
 ### Topics Covered in These Projects
 
 #### Beginner Concepts
-- ✅ Unity Editor basics (Scene, Game, Inspector views)
-- ✅ GameObject and Component system
-- ✅ MonoBehaviour lifecycle (Awake, Start, Update, FixedUpdate)
-- ✅ Input handling (GetAxis, GetButton)
-- ✅ Transform manipulation (position, rotation, scale)
-- ✅ Basic physics (Rigidbody2D, Rigidbody)
-- ✅ Collision detection (OnTriggerEnter2D, OnCollisionEnter2D)
+- Unity Editor basics (Scene, Game, Inspector views)
+- GameObject and Component system
+- MonoBehaviour lifecycle (Awake, Start, Update, FixedUpdate)
+- Input handling (GetAxis, GetButton)
+- Transform manipulation (position, rotation, scale)
+- Basic physics (Rigidbody2D, Rigidbody)
+- Collision detection (OnTriggerEnter2D, OnCollisionEnter2D)
 
 #### Intermediate Concepts
-- ✅ Animation system (Animator, Animation Clips)
-- ✅ Prefab workflow and instantiation
-- ✅ Scene management (SceneManager)
-- ✅ UI system (Canvas, TextMeshPro)
-- ✅ Audio management (AudioSource, AudioClip)
-- ✅ Parent-child object relationships
-- ✅ Layer-based collision filtering
+- Animation system (Animator, Animation Clips)
+- Prefab workflow and instantiation
+- Scene management (SceneManager)
+- UI system (Canvas, TextMeshPro)
+- Audio management (AudioSource, AudioClip)
+- Parent-child object relationships
+- Layer-based collision filtering
 
 #### Advanced Concepts
-- ✅ Game state management (Singleton pattern)
-- ✅ Camera systems (follow, orbit, zoom)
-- ✅ Procedural generation (chunk-based terrain)
-- ✅ AI programming (patrol, chase behaviors)
-- ✅ Performance optimization (object pooling, chunk loading)
-- ✅ Vector mathematics (distance, direction, magnitude)
+- Game state management (Singleton pattern)
+- Camera systems (follow, orbit, zoom)
+- Procedural generation (chunk-based terrain)
+- AI programming (patrol, chase behaviors)
+- Performance optimization (object pooling, chunk loading)
+- Vector mathematics (distance, direction, magnitude)
 
 ### Recommended Next Steps
 
@@ -774,7 +774,7 @@ Ensure the following tags are created in **Edit → Project Settings → Tags an
 
 ---
 
-## 🐛 Known Issues & Troubleshooting
+## Known Issues & Troubleshooting
 
 ### Common Issues
 
@@ -818,7 +818,7 @@ Ensure the following tags are created in **Edit → Project Settings → Tags an
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! This project is designed for learning, so improvements, bug fixes, and new features are appreciated.
 
@@ -857,13 +857,13 @@ Contributions are welcome! This project is designed for learning, so improvement
 
 ### Contribution Guidelines
 
-- ✅ Follow Unity C# coding conventions
-- ✅ Comment complex algorithms
-- ✅ Test all changes before submitting
-- ✅ Update README if adding new features
-- ✅ Keep commits focused and descriptive
-- ❌ Don't commit Library/ or Temp/ folders
-- ❌ Don't include large binary files without reason
+- Follow Unity C# coding conventions
+- Comment complex algorithms
+- Test all changes before submitting
+- Update README if adding new features
+- Keep commits focused and descriptive
+- Don't commit Library/ or Temp/ folders
+- Don't include large binary files without reason
 
 ### Code Style
 
@@ -891,24 +891,24 @@ private void HandleJump() { }
 
 ---
 
-## 📄 License
+## License
 
 ### Project License
 This project is released under the **MIT License** (or specify your preferred license).
 
 ### Asset Licenses
 All game assets (sprites, sounds, fonts) are under **Creative Commons Zero (CC0)**, allowing:
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
-- ❌ No warranty provided
+- Commercial use
+- Modification
+- Distribution
+- Private use
+- No warranty provided
 
 See [LICENSE & CREDITS.txt](Unity-Final/TaiNguyen/LICENSE%20&%20CREDITS.txt) for detailed asset attribution.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 - **Unity Technologies** - For the amazing game engine
@@ -920,7 +920,7 @@ Special thanks to:
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Repository**: [github.com/nkdtrung/Unity-FirstSimpleProject](https://github.com/nkdtrung/Unity-FirstSimpleProject)
 - **Issues**: [Report bugs or request features](https://github.com/nkdtrung/Unity-FirstSimpleProject/issues)
@@ -928,9 +928,9 @@ Special thanks to:
 
 ---
 
-## 🗺️ Project Roadmap
+## Project Roadmap
 
-### Completed ✅
+### Completed
 - [x] Basic 2D platformer mechanics
 - [x] Player animation system
 - [x] Collectible and scoring system
@@ -943,7 +943,7 @@ Special thanks to:
 - [x] Chunk-based terrain generation
 - [x] Enemy chase AI
 
-### Planned Features 🚧
+### Planned Features
 - [ ] Add multiple levels/stages
 - [ ] Implement health system
 - [ ] Create checkpoint system
@@ -955,7 +955,7 @@ Special thanks to:
 - [ ] Add achievement system
 - [ ] Mobile touch controls
 
-### Future Improvements 💡
+### Future Improvements
 - [ ] Rewrite using new Input System
 - [ ] Implement object pooling
 - [ ] Add more camera modes
@@ -968,10 +968,10 @@ Special thanks to:
 
 <div align="center">
 
-### ⭐ If this project helped you learn Unity, please consider giving it a star!
+### If this project helped you learn Unity, please consider giving it a star!
 
-**Made with ❤️ by Unity Learners**
+**Made with love by Unity Learners**
 
-[⬆ Back to Top](#-unity-first-simple-project-collection)
+[Back to Top](#unity-first-simple-project-collection)
 
 </div>
